@@ -2,7 +2,7 @@
 
 Generate diagrams in your readme files like this one:
 
-![diagram](diagrams/jwt-sequence-diagram.svg)
+![diagram](./diagrams/jwt-sequence-diagram.svg)
 <details><summary>raw</summary>
 
 ```js-sequence-diagram
