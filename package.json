@@ -1,0 +1,27 @@
+{
+  "name": "readme-diagram",
+  "version": "1.0.0",
+  "description": "Diagrams in readme",
+  "main": "index.js",
+  "bin": {
+    "readme-diagram": "./bin/readme-diagram.js"
+  },
+  "scripts": {
+    "test": "ava tests/**.spec.js"
+  },
+  "keywords": [
+    "readme",
+    "diagram",
+    "documentation",
+    "generator"
+  ],
+  "author": "Kasper Moskwiak <kasper.moskwiak@gmail.com> (https://kspr.pl)",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^1.0.1"
+  },
+  "dependencies": {
+    "diagrams": "^0.10.0",
+    "marked": "^0.6.0"
+  }
+}
