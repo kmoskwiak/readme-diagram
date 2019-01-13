@@ -20,6 +20,7 @@ generator->user: Code ready to commit and push
 ```bash
 npm install -g readme-diagram
 ```
+Currently there is an [issue](https://github.com/electron-userland/electron-prebuilt/issues/263) with installing electron. If you run across issue `Error: EACCES: permission denied, mkdir '<...>readme-diagram/node_modules/electron/.electron'` try to install package with command: `npm install -g readme-diagram --unsafe-perm=true --allow-root`
 
 ## Usage
 In readme file place image holder:
